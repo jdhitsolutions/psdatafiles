@@ -1,0 +1,9 @@
+#my sample list
+bits
+spooler 
+ wuauserv
+winrm
+ webclient      
+ #skip this line  
+
+    

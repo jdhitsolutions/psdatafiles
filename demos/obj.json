@@ -1,0 +1,97 @@
+[
+    {
+        "Name":  "Jeff",
+        "Size":  9554905,
+        "Date":  "\/Date(1523424342896)\/",
+        "Value":  2.1875,
+        "TS":  {
+                   "Ticks":  634200000000,
+                   "Days":  0,
+                   "Hours":  17,
+                   "Milliseconds":  0,
+                   "Minutes":  37,
+                   "Seconds":  0,
+                   "TotalDays":  0.73402777777777772,
+                   "TotalHours":  17.616666666666667,
+                   "TotalMilliseconds":  63420000,
+                   "TotalMinutes":  1057,
+                   "TotalSeconds":  63420
+               }
+    },
+    {
+        "Name":  "Don",
+        "Size":  4529650,
+        "Date":  "\/Date(1522855542920)\/",
+        "Value":  2.1875,
+        "TS":  {
+                   "Ticks":  68400000000,
+                   "Days":  0,
+                   "Hours":  1,
+                   "Milliseconds":  0,
+                   "Minutes":  54,
+                   "Seconds":  0,
+                   "TotalDays":  0.079166666666666663,
+                   "TotalHours":  1.9,
+                   "TotalMilliseconds":  6840000,
+                   "TotalMinutes":  114,
+                   "TotalSeconds":  6840
+               }
+    },
+    {
+        "Name":  "Jason",
+        "Size":  8523043,
+        "Date":  "\/Date(1523323542924)\/",
+        "Value":  2.1875,
+        "TS":  {
+                   "Ticks":  798600000000,
+                   "Days":  0,
+                   "Hours":  22,
+                   "Milliseconds":  0,
+                   "Minutes":  11,
+                   "Seconds":  0,
+                   "TotalDays":  0.92430555555555549,
+                   "TotalHours":  22.183333333333334,
+                   "TotalMilliseconds":  79860000,
+                   "TotalMinutes":  1331,
+                   "TotalSeconds":  79860
+               }
+    },
+    {
+        "Name":  "Richard",
+        "Size":  212351,
+        "Date":  "\/Date(1522542342930)\/",
+        "Value":  2.1875,
+        "TS":  {
+                   "Ticks":  808800000000,
+                   "Days":  0,
+                   "Hours":  22,
+                   "Milliseconds":  0,
+                   "Minutes":  28,
+                   "Seconds":  0,
+                   "TotalDays":  0.93611111111111112,
+                   "TotalHours":  22.466666666666665,
+                   "TotalMilliseconds":  80880000,
+                   "TotalMinutes":  1348,
+                   "TotalSeconds":  80880
+               }
+    },
+    {
+        "Name":  "Bruce",
+        "Size":  8070271,
+        "Date":  "\/Date(1523147142933)\/",
+        "Value":  2.1875,
+        "TS":  {
+                   "Ticks":  684600000000,
+                   "Days":  0,
+                   "Hours":  19,
+                   "Milliseconds":  0,
+                   "Minutes":  1,
+                   "Seconds":  0,
+                   "TotalDays":  0.79236111111111107,
+                   "TotalHours":  19.016666666666666,
+                   "TotalMilliseconds":  68460000,
+                   "TotalMinutes":  1141,
+                   "TotalSeconds":  68460
+               }
+    }
+]

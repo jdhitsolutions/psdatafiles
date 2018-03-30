@@ -1,0 +1,7 @@
+bits
+spooler 
+ wuauserv
+winrm
+ webclient        
+
+    
