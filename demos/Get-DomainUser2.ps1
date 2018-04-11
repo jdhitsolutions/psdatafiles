@@ -1,5 +1,5 @@
 #better approaches instead of relying on hard coded values
-
+# set as parameter values
 #requires -module ActiveDirectory
 
 Function Get-DomainUser {

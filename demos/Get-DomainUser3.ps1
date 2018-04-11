@@ -12,6 +12,8 @@ Function Get-DomainUser {
     )
     Begin {
         Write-Verbose "[$((Get-Date).TimeofDay) BEGIN  ] Starting $($myinvocation.mycommand)"
+
+        #import the configuration data into the function
         $config = Import-PowerShellDataFile -Path $ConfigurationData
        
         $properties = "Name","SamAccountName","UserPrincipalName","Description","Enabled"
@@ -23,6 +25,7 @@ Function Get-DomainUser {
             $Filter = "*"
         }
 
+        #use the configuration data values
         $paramhash = @{
             SearchBase = $config.ou
             Server = "$($config.dc).$($config.domain)"
@@ -32,11 +35,11 @@ Function Get-DomainUser {
 
     Process {
         Write-Verbose "[$((Get-Date).TimeofDay) PROCESS] Getting user accounts from $($config.ou)"
-    
-
         Write-Verbose "[$((Get-Date).TimeofDay) PROCESS] Connecting to domain controller $(($config.dc).toupper())"
         $paramhash | out-string | write-verbose
+    
         Get-ADUser @paramhash
+    
     } #process
 
     End {

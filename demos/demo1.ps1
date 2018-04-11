@@ -51,7 +51,7 @@ $a | convertto-json -Depth 1 | Set-Content -Path .\obj2.json
 $k = get-content .\obj2.json | convertfrom-json 
 $k | get-member
 $k | Select Name,Size,Date,Value, @{Name="TS";Expression={$_.ts -as [timespan]}} -ov s| get-member
-$s | ft
+$s | format-table
 
 #caution with json cmdlets and the pipeline
 #this will fail
